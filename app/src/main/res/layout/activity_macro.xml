@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".macro_activity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/app_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+
+                android:layout_marginStart="@dimen/dim_10"
+                android:layout_marginTop="@dimen/dim_39"
+
+                android:text="MACRO CALCULATOR"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/weight_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/dim_50"
+                android:layout_marginTop="@dimen/dim_90"
+
+                android:layout_marginEnd="@dimen/dim_128"
+                android:autoSizeMaxTextSize="1dp"
+                android:text="Calories"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dim_20"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/calorie"
+                style="MaterialC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/weight_heading"
+                android:layout_alignParentEnd="true"
+
+                android:layout_centerInParent="true"
+                android:layout_marginStart="@dimen/dim_60"
+                android:layout_marginTop="@dimen/dim_30"
+
+                android:layout_marginEnd="@dimen/dim_183"
+                android:autoSizeMaxTextSize="@dimen/dim_1"
+                android:backgroundTint="@color/white"
+                android:hint="00"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:textColor="@color/black"
+                android:textSize="@dimen/dim_38" />
+
+            <Button
+                android:id="@+id/high_carb"
+                android:layout_width="@dimen/dim_100"
+                android:layout_height="@dimen/dim_100"
+                android:layout_below="@+id/calorie"
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/dim_82"
+                android:layout_marginTop="@dimen/dim_46"
+                android:backgroundTint="@color/white"
+                android:text="60/25/15\n(HIGH CARB)"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/low_carb"
+                android:layout_width="@dimen/dim_100"
+                android:layout_height="@dimen/dim_100"
+                android:layout_below="@+id/calorie"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/dim_199"
+                android:layout_marginTop="@dimen/dim_147"
+                android:layout_marginEnd="@dimen/dim_82"
+                android:backgroundTint="@color/white"
+                android:text="25/45/30\n(LOW CARB)"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/zone_carb"
+                android:layout_width="@dimen/dim_100"
+                android:layout_height="@dimen/dim_100"
+                android:layout_below="@+id/calorie"
+
+                android:layout_alignParentLeft="true"
+                android:layout_marginStart="@dimen/dim_82"
+                android:layout_marginTop="@dimen/dim_147"
+                android:backgroundTint="@color/white"
+                android:text="40/30/30\n(ZONE CARB)"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/moderate"
+                android:layout_width="@dimen/dim_100"
+                android:layout_height="@dimen/dim_100"
+                android:layout_below="@+id/calorie"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="@dimen/dim_199"
+                android:layout_marginTop="@dimen/dim_46"
+                android:layout_marginEnd="@dimen/dim_82"
+                android:backgroundTint="@color/white"
+                android:text="50/30/20\n(MODERATE)"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

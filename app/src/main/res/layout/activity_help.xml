@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal_200"
+    tools:context=".Help_activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/text_help"
+            android:layout_width="@dimen/_300sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_4sdp"
+            android:layout_height="wrap_content"
+
+            android:padding="@dimen/_3sdp"
+            android:text="@string/help"
+            android:textColor="@color/black"
+            android:textSize="19dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="@dimen/_10sdp" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

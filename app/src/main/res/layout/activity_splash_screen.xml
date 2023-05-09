@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_fit3"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/app_splash"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dim_100"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="0dp"
+
+        android:layout_marginLeft="0dp"
+
+        android:layout_marginTop="@dimen/dim_110"
+        android:layout_marginRight="@dimen/dim_94"
+        android:src="@drawable/fitness_pal2" />
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dim_110"
+        android:text="Fitness Pal"
+        android:textColor="@color/cornflower_blue"
+        android:textSize="@dimen/dim_35"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

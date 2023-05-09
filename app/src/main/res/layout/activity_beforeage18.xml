@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+
+    tools:context=".beforeage18">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1.0"
+        android:orientation="vertical"
+        >
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:scrollbars="none"
+
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+
+                >
+
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose1"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="Mountain Climber"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_1"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:onClick="ImagebuttonClick"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <!--2nd-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose2"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="Basic Crunches"
+                                android:textAllCaps="true"
+                                android:capitalize="characters"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="@color/gray"
+
+
+                                android:text="Repeat 2 Times"
+                                android:layout_height="@dimen/dim_20"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_2"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!--3rd-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose3"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="BENCH DIPS"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="@color/gray"
+
+
+                                android:text="Repeat 2 Times"
+                                android:layout_height="@dimen/dim_20"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_3"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="5.0dp"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+                <!--4th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose4"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="BICYCLE CRUNCHES"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:textColor="@color/gray"
+
+
+                                android:text="Repeat 2 Times"
+                                android:layout_height="@dimen/dim_20"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_4"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <!--5th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose5"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="LEG RAISE"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:text="Repeat 2 Times"
+                                android:textColor="@color/gray"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_5"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!--6th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose6"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="ALTERNATIVE HEAL TOUCH"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_6"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!--7th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose7"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="FROG CRUNCHES"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_7"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!--8th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose8"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="10.0dp"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="SIT UPS"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_8"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <!--9th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose9"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="ALTERNATIVE V UPS"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:text="Repeat 2 Times"
+                                android:textColor="@color/gray"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_9"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/dim_5"
+                                android:backgroundTint="@color/aquamarine"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <!--10th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose10"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="PLANK ROTATION"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_10"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/dim_5"
+                                android:backgroundTint="@color/aquamarine"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+                <!--11th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose11"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="PLANK WITH LEG LEFT"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_11"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/dim_5"
+                                android:backgroundTint="@color/aquamarine"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!--12th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose12"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="RUSSIAN TWIST"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="15dp"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_12"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!--13th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose13"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="BRIDGE"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_13"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/aquamarine"
+                                android:layout_margin="@dimen/dim_5"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+                <!--14th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose14"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="VERTICAL LEG CRUNCHES"
+                                android:textAllCaps="true"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_14"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/dim_5"
+                                android:backgroundTint="@color/aquamarine"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <!--15th-->
+
+                <LinearLayout
+                    android:onClick="ImagebuttonClick"
+                    android:layout_width="fill_parent"
+                    android:layout_height="@dimen/dim_100"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+
+                    >
+                    <LinearLayout
+                        android:id="@+id/boat_pose15"
+                        android:onClick="ImagebuttonClick"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/dim_10"
+                        android:orientation="horizontal"
+                        >
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="@dimen/dim_10"
+                            android:layout_weight="1.0"
+                            android:orientation="vertical"
+
+
+                            >
+
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:fontFamily="monospace"
+                                android:text="WIND MILL"
+                                android:textAllCaps="true"
+                                android:capitalize="characters"
+                                android:textColor="#ff000000"
+                                android:textSize="@dimen/dim_15"
+                                android:textStyle="bold"/>
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+                                android:textColor="@color/gray"
+                                android:text="Repeat 2 Times"
+                                android:textStyle="bold"
+                                />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/dim_20"
+
+                                android:text="01:00 MIN"
+                                android:textColor="#ffff5722"
+                                android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2.0"
+                            >
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/exersice_15"
+                                />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:layout_weight="0.0"
+                            >
+
+                            <ImageButton
+                                android:onClick="ImagebuttonClick"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_margin="@dimen/dim_5"
+                                android:backgroundTint="@color/aquamarine"
+                                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+
+
+
+
+
+
+
+
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="@dimen/_1sdp"
+
+                        android:background="#ffaaa9a9"
+                        />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

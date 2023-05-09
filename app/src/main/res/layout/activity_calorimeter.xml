@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/peach_puff"
+    android:padding="32dp">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/age_value"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/height_heading"
+
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/dim_130"
+
+        android:autoSizeMaxTextSize="@dimen/dim_1"
+        android:hint="00"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_38" />
+
+    <TextView
+        android:id="@+id/age_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_boy"
+        android:layout_centerInParent="true"
+
+        android:layout_marginTop="@dimen/_140sdp"
+        android:layout_marginEnd="@dimen/dim_120"
+        android:text="Age (in years)"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/app_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+
+
+
+        android:layout_marginTop="@dimen/dim_18"
+
+        android:layout_marginBottom="@dimen/dim_30"
+        android:text="BMR CALCULATOR"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="@color/black"
+        android:textSize="@dimen/dim_30"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dim_56"
+        android:text="Select Your Gender"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="@dimen/_20sdp" />
+
+    <ImageView
+        android:id="@+id/image_boy"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_below="@id/app_heading"
+
+        android:layout_marginStart="@dimen/_32sdp"
+        android:layout_marginTop="@dimen/dim_25"
+
+        android:backgroundTint="@color/pink"
+        android:src="@drawable/male5" />
+
+
+    <TextView
+        android:id="@+id/weight_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_boy"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="@dimen/dim_48"
+        android:layout_marginTop="@dimen/dim_52"
+        android:text="weight(kg)"
+
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/height_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_girl"
+
+        android:layout_alignParentRight="true"
+
+
+        android:layout_marginTop="@dimen/dim_52"
+        android:layout_marginEnd="@dimen/dim_48"
+        android:text="height(cm)"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_girl"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_marginTop="@dimen/dim_25"
+        android:layout_below="@id/app_heading"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/_32sdp"
+        android:src="@drawable/female2" />
+
+    <EditText
+        android:id="@+id/weight_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight_heading"
+
+        android:layout_alignParentLeft="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginStart="@dimen/dim_50"
+
+        android:layout_marginTop="@dimen/dim_22"
+        android:autoSizeMaxTextSize="@dimen/dim_1"
+        android:hint="00"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_38sdp" />
+
+    <EditText
+        android:id="@+id/height_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/height_heading"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginTop="@dimen/dim_22"
+        android:layout_marginEnd="@dimen/dim_50"
+
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:autoSizeMaxTextSize="@dimen/dim_1"
+
+        android:hint="00"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_38sdp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight_value"
+
+
+        android:layout_centerInParent="true"
+
+        android:layout_marginStart="@dimen/dim_70"
+        android:layout_marginTop="@dimen/dim_102"
+        android:backgroundTint="@color/white"
+        android:layout_marginRight="@dimen/dim_80"
+        android:layout_marginBottom="@dimen/dim_10"
+        android:text="Calculate Your BMR"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:backgroundTint="@color/purple_200"
+        app:cornerRadius="8dp" />
+
+    <LinearLayout
+        android:id="@+id/bmrView"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/weight_value"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="124dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="YOUR BMR RATING"
+            android:textColor="@color/purple_700"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/bmr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            tools:text="20.2" />
+
+        <TextView
+            android:id="@+id/bmr_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            tools:text="calories per day" />
+
+        <TextView
+            android:id="@+id/calculate_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="16dp"
+
+            android:gravity="center_horizontal"
+            android:text="Calculate BMR Again"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/blue"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
+</LinearLayout>
